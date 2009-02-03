@@ -14,7 +14,7 @@
 
 Name:           ocaml-ocamlgraph
 Version:        1.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 
 Summary:        OCaml library for arc and node graphs
 Group:          Development/Other
