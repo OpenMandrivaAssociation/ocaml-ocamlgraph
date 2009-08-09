@@ -13,15 +13,15 @@
 # -- rjones
 
 Name:           ocaml-ocamlgraph
-Version:        1.0
-Release:        %mkrel 3
+Version:        1.1
+Release:        %mkrel 1
 
 Summary:        OCaml library for arc and node graphs
 Group:          Development/Other
 License:        LGPLv2 with exceptions
 
 URL:            http://ocamlgraph.lri.fr/
-Source0:        http://ocamlgraph.lri.fr/download/ocamlgraph-%{version}.tar.bz2
+Source0:        http://ocamlgraph.lri.fr/download/ocamlgraph-%{version}.tar.gz
 Source1:        ocamlgraph-test.result
 Source2:        http://www.lri.fr/~filliatr/ftp/publis/ocamlgraph.ps.bz2
 Patch0:         ocamlgraph-1.0-no-view-graph-doc.patch
