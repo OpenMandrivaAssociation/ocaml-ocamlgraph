@@ -31,7 +31,6 @@ tools.
 
 %package        devel
 Summary:        Development files for %{name}
-Group:          Development/Libraries
 Requires:       %{name} = %{EVRD}
 
 %description    devel
