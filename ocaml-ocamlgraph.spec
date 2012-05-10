@@ -1,6 +1,6 @@
 Name:           ocaml-ocamlgraph
-Version:        1.7
-Release:        2
+Version:        1.8.1
+Release:        1
 Summary:        OCaml library for arc and node graphs
 
 Group:          Development/Other
@@ -9,9 +9,6 @@ License:        LGPLv2 with exceptions
 URL:            http://ocamlgraph.lri.fr/
 Source0:        http://ocamlgraph.lri.fr/download/ocamlgraph-%{version}.tar.gz
 Source1:        ocamlgraph-test.result
-
-# Fix the install-findlib rule, and install some extras.
-Patch3:         ocamlgraph-1.6-install-extras.patch
 
 ExcludeArch:    sparc64 s390 s390x
 BuildRequires:  ocaml >= 3.08 ocaml-findlib-devel ocaml-doc
@@ -39,7 +36,6 @@ developing applications that use %{name}.
 
 %prep
 %setup -q -n ocamlgraph-%{version}
-%patch3 -p1
 cp %{SOURCE1} .
 
 %build
