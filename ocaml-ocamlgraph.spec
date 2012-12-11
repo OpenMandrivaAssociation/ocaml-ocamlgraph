@@ -77,3 +77,39 @@ cp -p doc/* %{buildroot}%{_defaultdocdir}/%{name}-%{version}-devel/API/
 # Include all code and examples in the doc directory
 %{_defaultdocdir}/%{name}-%{version}-devel/
 
+
+
+%changelog
+* Thu May 10 2012 Crispin Boylan <crisb@mandriva.org> 1.8.1-1
++ Revision: 797971
+- New release
+
+* Sun Apr 10 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.7-2
++ Revision: 652401
+- fix buildrequires
+
+* Thu Apr 07 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.7-1
++ Revision: 651775
+- imported package ocaml-ocamlgraph
+
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1-2mdv2011.0
++ Revision: 613134
+- the mass rebuild of 2010.1 packages
+
+* Mon Aug 10 2009 Florent Monnier <blue_prawn@mandriva.org> 1.1-1mdv2010.0
++ Revision: 413683
+- new tarball
+- new version
+
+* Sun Jun 28 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-3mdv2010.0
++ Revision: 390297
+- rebuild
+
+* Tue Feb 03 2009 Florent Monnier <blue_prawn@mandriva.org> 1.0-2mdv2010.0
++ Revision: 337142
+- The initial RPM release was made from the fedora rpm .spec file (revision 1.4) by Richard W.M. Jones
+
+* Fri Jan 09 2009 Florent Monnier <blue_prawn@mandriva.org> 1.0-1mdv2009.1
++ Revision: 327773
+- import ocaml-ocamlgraph
+
