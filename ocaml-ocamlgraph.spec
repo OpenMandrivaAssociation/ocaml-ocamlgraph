@@ -15,7 +15,7 @@ Source1:        ocamlgraph-test.result
 ExcludeArch:    sparc64 s390 s390x
 BuildRequires:  ocaml >= 3.08 ocaml-findlib-devel ocaml-doc
 BuildRequires:  ocaml-lablgtk2-devel
-BuildRequires:  gtk2-devel libgnomecanvas2-devel
+BuildRequires:  pkgconfig(gtk+-2.0) libgnomecanvas2-devel
 
 %description
 Ocamlgraph provides several different implementations of graph data
