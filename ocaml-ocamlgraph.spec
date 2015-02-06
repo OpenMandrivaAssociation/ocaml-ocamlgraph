@@ -2,7 +2,7 @@
 
 Name:           ocaml-ocamlgraph
 Version:        1.8.2
-Release:        2
+Release:        3
 Summary:        OCaml library for arc and node graphs
 
 Group:          Development/Other
