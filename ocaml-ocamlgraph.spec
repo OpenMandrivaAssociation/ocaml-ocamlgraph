@@ -8,7 +8,7 @@ Summary:        OCaml library for arc and node graphs
 Group:          Development/Other
 License:        LGPLv2 with exceptions
 
-URL:            http://ocamlgraph.lri.fr/
+URL:            https://ocamlgraph.lri.fr/
 Source0:        http://ocamlgraph.lri.fr/download/ocamlgraph-%{version}.tar.gz
 Source1:        ocamlgraph-test.result
 
