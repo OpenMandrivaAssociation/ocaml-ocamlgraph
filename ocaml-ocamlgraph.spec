@@ -13,6 +13,11 @@ Source0:        http://ocamlgraph.lri.fr/download/ocamlgraph-%{version}.tar.gz
 Source1:        ocamlgraph-test.result
 
 ExcludeArch:    sparc64 s390 s390x
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  ocaml >= 3.08 ocaml-findlib-devel ocaml-doc
 BuildRequires:  ocaml-lablgtk2-devel
 BuildRequires:  pkgconfig(gtk+-2.0) libgnomecanvas2-devel
